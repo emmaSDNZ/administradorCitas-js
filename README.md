@@ -1,3 +1,3 @@
-⭐ LOGICA CARRITO DE COMPRAS:
+⭐ ADMINISTRADOR DE CITAS:
 
 [WEBSITE](https://administradorcitas-js.netlify.app/)
