@@ -239,7 +239,7 @@ function reiniciarObjeto(){
 }
 
 function eliminarCita(id){
-    console.log(id);
+    
     //elimnar cita
     administrarCitas.eliminarCita(id);
 
@@ -253,7 +253,7 @@ function eliminarCita(id){
 //CARGA LOS DATOS PARA MODO EDICION
 function cargarEdicion(cita) {
     const { mascota, propietario, telefono, fecha, hora, sintomas, id} = cita;
-    console.log(cita);
+    
     //llenar inputs
     mascotaInput.value = mascota;
     propietarioInput.value = propietario;
@@ -271,7 +271,7 @@ function cargarEdicion(cita) {
     citaObj.sintomas = sintomas;
     citaObj.id = id;
 
-    console.log(citaObj);
+   
     //cambiar texto del btn
     formulario.querySelector('button[type="submit"]').textContent = 'Guardar Cambios';
 
